@@ -1,0 +1,923 @@
+*
+{
+  background-repeat: no-repeat;
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 0;
+  text-decoration: none;
+  width: 100%;
+  word-wrap: break-word;
+}
+body
+{
+  background-color: #EDF2F6;
+  font-size: 1rem;
+  margin: 0;
+  max-width: 1440px;
+  width: 100%;
+}
+header
+{
+  background-color: white;
+}
+button
+{
+  outline: none;
+}
+.left-side-drawer
+{
+  background-color: #374050;
+  display: inline-block;
+  height: 1750px;
+  margin: 0;
+  width: 13.4rem;
+}
+.aside-boxes-padding
+{
+  padding: 1rem;
+}
+.aside-h3s
+{
+  margin: 0 0 .5rem .3rem;
+}
+.aside-btns
+{
+  background-color: transparent;
+  background-position-y: center;
+  background-size: 1.5rem;
+  border: none;
+  border-left: .3rem solid transparent;
+  color: #D8D7D7;
+  font-size: .8em;
+  height: 30px;
+  outline: none;
+  padding: 0 2rem;
+  text-align: left;
+}
+.aside-btns:hover
+{
+  background-color: #383844;
+  border-left: .3rem solid #479EF6;
+  color: white;
+}
+.check-boxes:hover
+{
+  background-color: transparent;
+  background-size: 1.5rem;
+  border: .3rem solid transparent;
+}
+.profile-header
+{
+  border-bottom: .1rem solid black;
+  height: 10.8rem;
+}
+.profile-img
+{
+  background-image: url(images/urkel.png);
+  background-position: center;
+  background-size: 5.5rem;
+  border-radius: 50%;
+  height: 5.5rem;
+  margin-bottom: .5rem;
+  width: 5.5rem;
+}
+.name-btn
+{
+  background-color: transparent;
+  background-image: url(images/downarrowgrey.png);
+  background-position: 8rem;
+  background-size: .9rem;
+  border: none;
+  color: #D8D7D7;
+  margin: 1rem 0;
+}
+.profile-main
+{
+  border-bottom: .1rem solid black;
+  height: 250px;
+}
+.home-btn
+{
+  background-image: url(images/homegrey.png);
+}
+.home-btn:hover
+{
+  background-image: url(images/homewhite.png);
+}
+.jobs-btn
+{
+  background-image: url(images/jobsgrey.png);
+}
+.jobs-btn:hover
+{
+  background-image: url(images/jobswhite.png);
+}
+.resumes-btn
+{
+  background-image: url(images/resumegrey.png);
+}
+.resumes-btn:hover
+{
+  background-image: url(images/resumewhite.png);
+}
+.tasks-btn
+{
+  background-image: url(images/clipboardgrey.png);
+}
+.tasks-btn:hover
+{
+  background-image: url(images/clipboardwhite.png);
+}
+.calender-btn
+{
+  background-image: url(images/calendergrey.png);
+}
+.calender-btn:hover
+{
+  background-image: url(images/calenderwhite.png);
+}
+.users-btn
+{
+  background-image: url(images/usersgrey.png);
+}
+.users-btn:hover
+{
+  background-image: url(images/userswhite.png);
+}
+.locations-btn
+{
+  background-image: url(images/locationgrey.png);
+}
+.locations-btn:hover
+{
+  background-image: url(images/locationwhite.png);
+}
+.workflow-btn
+{
+  background-image: url(images/tasksgrey.png);
+}
+.workflow-btn:hover
+{
+  background-image: url(images/taskswhite.png);
+}
+.jobboard-btn
+{
+  background-image: url(images/jobsgrey.png);
+}
+.jobboard-btn:hover
+{
+  background-image: url(images/jobswhite.png);
+}
+.social-btn
+{
+  background-image: url(images/socialgrey.png);
+}
+.social-btn:hover
+{
+  background-image: url(images/socialwhite.png);
+}
+.yellow-checkbox
+{
+  background-image: url(images/yellowbox.png);
+}
+.yellow-checkbox:hover
+{
+  background-image: url(images/yellowcheck.png);
+}
+.blue-checkbox
+{
+  background-image: url(images/bluebox.png);
+}
+.blue-checkbox:hover
+{
+  background-image: url(images/bluecheck.png);
+}
+.red-checkbox
+{
+  background-image: url(images/redbox.png);
+}
+.red-checkbox:hover
+{
+  background-image: url(images/redcheck.png);
+}
+.green-checkbox
+{
+  background-image: url(images/greenbox.png);
+}
+.green-checkbox:hover
+{
+  background-image: url(images/greencheck.png);
+  padding: 0 2rem 0 1.9804rem;
+}
+.main-container
+{
+  display: inline-block;
+  height: 1700px;
+  position: absolute;
+  top: 0;
+  width: calc(100% - 13.4rem);
+}
+nav
+{
+  display: flex;
+}
+.header-nav-btns
+{
+  background-color: transparent;
+  height: 5rem;
+  width: 5rem;
+}
+.header-nav-btns:hover
+{
+  background-color: #374050;
+}
+.hamburger-btn
+{
+  background-image: url(images/leftarrowgrey.png), url(images/hamburgergrey.png);
+  background-position: -.1rem 1.5rem, 1.5rem center;
+  background-size: 2rem, 2.5rem;
+}
+.hamburger-btn:hover
+{
+  background-image: url(images/leftarrowblue.png), url(images/hamburgerblue.png);
+}
+.search
+{
+  width: 75%;
+}
+.search-input
+{
+  background-image: url(images/search.png);
+  background-position: 1rem;
+  background-size: 2rem 2rem;
+  height: 5rem;
+}
+.search-input::placeholder
+{
+  font-size: 1rem;
+  padding-left: 3.5rem;
+}
+.add-buttons
+{
+  background-position: center;
+  background-size: 2rem;
+}
+.add-user-btn
+{
+  background-image: url(images/addpersongrey.png);
+}
+.add-user-btn:hover
+{
+  background-image: url(images/addpersonblue.png);
+}
+.add-event-btn
+{
+  background-image: url(images/addeventgrey.png);
+}
+.add-event-btn:hover
+{
+  background-image: url(images/addeventblue.png);
+}
+.squares-menu-btn
+{
+  background-image: url(images/squaresgrey.png);
+}
+.squares-menu-btn:hover
+{
+  background-image: url(images/squaresblue.png);
+}
+.sub-header-one
+{
+  display: flex;
+  justify-content: space-between;
+  padding: 3rem;
+  width: 100%;
+}
+.sub-header
+{
+  display: flex;
+}
+.bio-title
+{
+  background-image: url(images/locationdarkgrey.png);
+  background-position-y: 0.1rem;
+  background-size: 1rem;
+  padding-left: 1rem;
+}
+.bio-location
+{
+  display: inline-block;
+  width: 8rem;
+}
+.bio-location-image
+{
+  background-image: url(images/sphere.png);
+  background-position: 7.5rem center;
+  background-size: .3rem;
+}
+.bio-location-text
+{
+  color: #479EF6;
+}
+.bookmark-edit-delete
+{
+  width: 18rem;
+}
+.sub-header-nav-buttons
+{
+  background-position: center;
+  background-size: 1rem;
+  border-radius: 50%;
+  height: 2rem;
+  width: 2rem;
+}
+.sub-header-buttons:hover
+{
+  background-color: #374050;
+  color: #479EF6;
+}
+.sub-header-open-button
+{
+  background-image: url(images/greensphere.png);
+  background-position: .8rem .7rem;
+  background-size: .6rem;
+  border-radius: 1rem;
+  width: 5rem;
+}
+.bookmark-button
+{
+  background-image: url(images/bookmarkgrey.png);
+}
+.bookmark-button:hover
+{
+  background-image: url(images/bookmarkblue.png);
+}
+.pencil-button
+{
+  background-image: url(images/pencilgrey.png);
+}
+.pencil-button:hover
+{
+  background-image: url(images/pencilblue.png);
+}
+.trash-button
+{
+  background-image: url(images/trashgrey.png);
+}
+.trash-button:hover
+{
+  background-image: url(images/trashblue.png);
+}
+.sub-header-two
+{
+  padding: 0 3rem 0 2rem;
+}
+.sub-header-two-flex
+{
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding-right: 10rem;
+}
+.sub-header-two-buttons
+{
+  border: none;
+  border-bottom: .5rem solid transparent;
+  height: 3rem;
+  margin: 0;
+  outline: none;
+  width: 5.5rem;
+}
+.sub-header-two-buttons:hover
+{
+  border-bottom: .5rem solid #479EF6;
+}
+.graphs-container
+{
+  background-color: #EDF2F6;
+  display: flex;
+  padding: 3rem 3rem 0 3rem;
+  width: 100%;
+}
+.donut-graphs-flex
+{
+  display: flex;
+  margin-bottom: 5rem;
+}
+.donut-one-text
+{
+  left: 9.5%;
+  position: absolute;
+  text-align: center;
+  top: 25%;
+  width: 6rem;
+}
+.donut-two-text
+{
+  left: 27.5%;
+  position: absolute;
+  text-align: center;
+  top: 25%;
+  width: 6rem;
+}
+.donut-three-text
+{
+  left: 45.5%;
+  position: absolute;
+  text-align: center;
+  top: 25%;
+  width: 7rem;
+}
+.donut-graph
+{
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-top: 1.5rem;
+  width: calc(100% - 39%);
+}
+.donut
+{
+  height: 14rem;
+  margin: 0;
+  width: 14rem;
+}
+.bar-graph-container
+{
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.bar-graph
+{
+  background-image: url(images/bargraph.png);
+  background-position: center;
+  background-size: 100% 100%;
+  height: 18.5rem;
+  margin-bottom: 2rem;
+  width: 28rem;
+}
+.graph-buttons-flex
+{
+  background-color: #EDF2F6;
+}
+.graph-buttons
+{
+  border-radius: 2rem;
+  height: 3rem;
+  margin: 0;
+  width: 14rem;
+}
+.graph-buttons:hover
+{
+  background-color: #374050;
+  color: #479EF6;
+}
+.totals-button
+{
+  background-image: url(images/sphere.png);
+  background-position: 4.6rem center;
+  background-size: 0.6rem;
+}
+.app-day-button
+{
+}
+.hr-container
+{
+  background-color: #EDF2F6;
+  padding: 0 3rem 3rem 3rem;
+}
+.hr-width
+{
+  display: inline-block;
+  vertical-align: 1.5rem;
+}
+.hr-button
+{
+  background-image: url(images/uparrow.png);
+  background-position: center;
+  background-size: 2rem;
+  border-radius: 2rem;
+  height: 3rem;
+  left: 45%;
+  position: relative;
+  top: 1.8rem;
+  width: 3rem;
+}
+.page-bottom
+{
+  display: flex;
+}
+.table
+{
+  background-color: white;
+  margin: 0 3rem;
+}
+.table-header
+{
+  background-color: #717E93;
+  border: none;
+  height: 5rem;
+}
+.table-main
+{
+  padding: 0 3rem;
+}
+.table-flex
+{
+  border-bottom: 2px solid darkgrey;
+  display: flex;
+}
+.row-height
+{
+  height: 3rem;
+}
+.row-margin
+{
+  margin-top: 2rem;
+}
+.desc-styling
+{
+  height: 10rem;
+}
+.column-one
+{
+  margin: 0;
+  width: 13rem;
+}
+.column-two
+{
+  margin: 0;
+  width: 20rem;
+}
+.table-footer
+{
+  border: none;
+}
+.social-container
+{
+  padding-right: 3rem;
+  width: 40%;
+}
+.link-to-job,
+.link-widget
+{
+  border-bottom: 3px solid darkgrey;
+}
+.facebook
+{
+  background-color: #3f51b5;
+  background-image: url(images/facebook.png);
+  background-position-x: .5rem;
+}
+.twitter
+{
+  background-color: #03a9f4;
+  background-image: url(images/twitter.png);
+  background-position-x: 1rem;
+}
+.linkden
+{
+  background-color: #0288d1;
+  background-image: url(images/linkedin.png);
+  background-position-x: 1rem;
+}
+.social-buttons
+{
+  border-radius: .5rem;
+  color: white;
+  font-size: 1rem;
+  height: 3rem;
+  margin-bottom: 1rem;
+  text-indent: calc(10% - 1.5rem);
+}
+.link-containers
+{
+  margin: 2rem 0 1rem 0;
+}
+.link-container-three
+{
+  margin: 2rem 0 0 0;
+}
+.job-link-image
+{
+  background-image: url(images/globe.png);
+}
+.widget-link-image
+{
+  background-image: url(images/widget.png);
+}
+.upload-link-image
+{
+  background-image: url(images/upload.png);
+}
+.social-links
+{
+  background-size: 1rem;
+  color: #4E515D;
+  padding-left: 1.5rem;
+}
+.inline
+{
+  display: inline-block;
+  height: 3rem;
+  margin-bottom: 3rem;
+}
+.link-inputs
+{
+  width: 80.5%;
+}
+.link-input-three
+{
+  display: inline-block;
+  height: 3rem;
+  width: 97.5%;
+}
+.link-buttons
+{
+  background-color: #52979D;
+  color: white;
+  position: absolute;
+  width: 3rem;
+}
+.link-description
+{
+  margin: 2rem 0;
+}
+@media only screen and (max-width: 1350px)
+{
+  .left-side-drawer
+  {
+    width: 2rem;
+  }
+  .profile-main
+  {
+    height: 150px;
+  }
+  .pofile-categories
+  {
+    display: none;
+  }
+  .main-container
+  {
+    width: calc(100% - 2rem);
+  }
+  .profile-header
+  {
+    height: 16.6rem;
+  }
+  .profile-header,
+   .aside-h3s
+  {
+    display: none;
+  }
+  .aside-boxes-padding
+  {
+    border: none;
+    padding: 1rem 0 1rem 0;
+  }
+}
+@media only screen and (max-width: 1150px)
+{
+  .left-side-drawer
+  {
+    height: 2850px;
+  }
+  .graphs-container
+  {
+    flex-direction: column;
+  }
+  .bar-graph-container
+  {
+    padding: 2rem 0 0 0;
+  }
+  .donut-graph
+  {
+    width: 80%;
+  }
+  .donut-one-text
+  {
+    left: 22.5%;
+  }
+  .donut-two-text
+  {
+    left: 45.5%;
+  }
+  .donut-three-text
+  {
+    left: 68.5%;
+  }
+  .bar-graph
+  {
+    height: 22.5rem;
+    margin: 0 1.5rem 2rem 0;
+    width: 32rem;
+  }
+  .donut-graphs-flex
+  {
+    justify-content: space-evenly;
+    margin-bottom: 1rem;
+  }
+  .hr-button
+  {
+    left: 48%;
+  }
+  .page-bottom
+  {
+    flex-direction: column;
+  }
+  .table
+  {
+    margin-bottom: 3rem;
+    width: calc(100% - 6rem);
+  }
+  .social-container
+  {
+    padding: 0;
+    width: calc(100% - 6rem);
+  }
+  .social
+  {
+    display: flex;
+  }
+  .social-buttons
+  {
+    width: 20rem;
+  }
+  .facebook
+  {
+    margin: 0 1rem 0 0;
+  }
+  .twitter
+  {
+    margin-right: 1rem;
+  }
+  .linkden
+  {
+    margin-right: 0;
+  }
+  .link-containers
+  {
+    border: none;
+  }
+  .link-inputs
+  {
+    width: calc(100% - 3rem);
+  }
+  .link-input-three
+  {
+    width: calc(100% - .00000000001rem);
+  }
+}
+@media only screen and (max-width: 850px)
+{
+  .sub-header-two
+  {
+    display: none;
+  }
+  .sub-header-two:hover
+  {
+    background-image: url(images/hamburgerblue.png);
+  }
+  .social-buttons
+  {
+    background-position: center;
+    text-indent: -9999rem;
+  }
+  .table-main
+  {
+    padding: 0 2rem;
+  }
+  .donut-one-text
+  {
+    left: 20.5%;
+    top: 22.5%;
+  }
+  .donut-two-text
+  {
+    left: 45.5%;
+    top: 22.5%;
+  }
+  .donut-three-text
+  {
+    left: 67%;
+    top: 22.5%;
+  }
+}
+@media only screen and (max-width: 650px)
+{
+  .sub-header-one
+  {
+    margin: 0 auto;
+    padding: 2rem 0;
+    width: 18rem;
+  }
+  .bio-location-image
+  {
+    margin-left: 1.2rem;
+  }
+  .left-side-drawer,
+   .add-buttons,
+   .bookmark-edit-delete
+  {
+    display: none;
+  }
+  .search
+  {
+    width: 100%;
+  }
+  .main-container
+  {
+    width: calc(100% - .00000000000001rem);
+  }
+  .donut-graphs-flex
+  {
+    align-items: center;
+    flex-direction: column;
+  }
+  .donut-one-text
+  {
+    left: 42.5%;
+    top: 17.5%;
+  }
+  .donut-two-text
+  {
+    left: 42.5%;
+    top: 31%;
+  }
+  .donut-three-text
+  {
+    left: 42%;
+    top: 44%;
+  }
+  .table-flex
+  {
+    flex-direction: column;
+  }
+  .table
+  {
+    margin: 0 auto 1rem auto;
+    width: calc(100% - 1rem);
+  }
+  .table-main
+  {
+    padding: 0 1rem;
+  }
+  .social-container,
+   .graphs-container,
+   .bar-graph-container,
+   .bar-graph,
+   .table-main
+  {
+    margin: 0 auto;
+    width: calc(100% - .5rem);
+  }
+  .graphs-container
+  {
+    padding: 0;
+  }
+}
+@media only screen and (max-width: 400px)
+{
+  .search
+  {
+    display: none;
+  }
+  .hamburger-btn
+  {
+    background-position: center center;
+    border: none;
+    height: 4rem;
+    margin: 0;
+    width: 4rem;
+  }
+  .donut-one-text
+  {
+    left: 38.5%;
+    top: 16.5%;
+  }
+  .donut-two-text
+  {
+    left: 38.5%;
+    top: 30%;
+  }
+  .donut-three-text
+  {
+    left: 37%;
+    top: 43%;
+  }
+  .bar-graph-container,
+   .bar-graph
+  {
+    width: 100%;
+  }
+  .bar-graph-container
+  {
+    height: 25rem;
+  }
+  .bar-graph
+  {
+    height: 15rem;
+    margin-bottom: 1rem;
+  }
+}
