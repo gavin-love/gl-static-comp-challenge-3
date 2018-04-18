@@ -1,63 +1,201 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>Steve Urkel</title>
-  <link rel="stylesheet" href="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Steve Urkel</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <aside class="left-side-drawer">
-    <section class="profile-header">
-      <button class="name-btn"></button>
-    </section>
-    <section class="profile-main">
-      <h3>Main</h3>
-      <button class="home-btn aside-btns"></button>
-      <button class="jobs-btn aside-btns"></button>
-      <button class="resumes-btn aside-btns"></button>
-      <button class="tasks-btn aside-btns"></button>
-      <button class="calender-btn aside-btns"></button>
-    </section>
-    <section class="profile-admin">
-      <h3>Admin</h3>
-      <button class="users-btn aside-btns"></button>
-      <button class="locations-btn aside-btns"></button>
-      <button class="workflow-btn aside-btns"></button>
-      <button class="jobboard-btn aside-btns"></button>
-      <button class="social-btn aside-btns"></button>
-    </section>
-    <section class="pofile-categories">
-      <h3>Categories</h3>
-      <button class="admin-btn aside-btns"></button>
-      <button class="design-btn aside-btns"></button>
-      <button class="executive-btn aside-btns"></button>
-      <button class="hr-btn aside-btns"></button>
-    </section>
-  </aside>
-  <header>
-    <nav>
-      <button></button>
-      <form action="">
-        <input type="text">
-      </form>
-      <button></button>
-      <button></button>
-      <button></button>
-    </nav>
-    <section class="sub-header-one">
-      <article class="title-location"></article>
-      <article class="bookmard-edit-delete"></article>
-    </section>
-    <section class="sub-header-two">
-      <a href=""></a>
-      <a href=""></a>
-      <a href=""></a>
-      <a href=""></a>
-      <a href=""></a>
-      <a href=""></a>
-      <a href=""></a>
-    </section>
-  </header>
+    <aside class="left-side-drawer">
+        <section class="profile-header aside-boxes-padding">
+            <article class="profile-img">
+            </article>
+            <button arial-label="got to profile" class="name-btn">Steve Urkel</button>
+        </section>
+        <section class="profile-main aside-boxes-padding">
+            <h3 class="aside-h3s">Main</h3>
+            <button arial-label="home button" class="home-btn aside-btns">Home</button>
+            <button arial-label="got to jobs" class="jobs-btn aside-btns">JOBS</button>
+            <button arial-label="got to resumes" class="resumes-btn aside-btns">RESUMES</button>
+            <button arial-label="got to tasks" class="tasks-btn aside-btns">TASKS</button>
+            <button arial-label="got to calender" class="calender-btn aside-btns">CALENDER</button>
+        </section>
+        <section class="profile-admin aside-boxes-padding">
+            <h3 class="aside-h3s">Admin</h3>
+            <button arial-label="got to users" class="users-btn aside-btns">USERS</button>
+            <button arial-label="got to locations" class="locations-btn aside-btns">LOCATIONS</button>
+            <button arial-label="got to workflows" class="workflow-btn aside-btns">WORKFLOWS</button>
+            <button arial-label="got to job boards" class="jobboard-btn aside-btns">JOB BOARDS</button>
+            <button arial-label="got to social" class="social-btn aside-btns">SOCIAL</button>
+        </section>
+        <section aria-hidden="true" class="pofile-categories aside-boxes-padding">
+            <h3 class="aside-h3s">Categories</h3>
+            <button class="yellow-checkbox aside-btns check-boxes">Administrative</button>
+            <button class="blue-checkbox aside-btns check-boxes">Design</button>
+            <button class="red-checkbox aside-btns check-boxes">Executive</button>
+            <button class="green-checkbox aside-btns check-boxes">Human Resources</button>
+        </section>
+    </aside>
+    <main class="main-container">
+        <header>
+            <nav>
+                <button aria-label="menu button" class="hamburger-btn header-nav-btns"></button>
+                <form class="search" action="">
+                    <input class="search-input" type="text" placeholder="Search for a job, task or resume">
+                </form>
+                <button aria-label="add user button" class="add-user-btn header-nav-btns add-buttons"></button>
+                <button aria-label="add event button" class="add-event-btn header-nav-btns add-buttons"></button>
+                <button aria-label="add task button" class="squares-menu-btn header-nav-btns add-buttons"></button>
+            </nav>
+            <section class="sub-header-one">
+                <article>
+                    <h1 class="bio-title">Customer Service Representative</h1>
+                    <p class="bio-location bio-location-image">San Franciso, CA</p>
+                    <a class="bio-location bio-location-text" href="">preview this post</a>
+                </article>
+                <article class="bookmark-edit-delete">
+                    <article class="sub-header">
+                        <button aria-label="open job page button" class="sub-header-buttons sub-header-open-button">Open</button>
+                        <button aria-label="bookmark job button" class="sub-header-buttons sub-header-nav-buttons bookmark-button"></button>
+                        <button aria-label="edit job button" class="sub-header-buttons sub-header-nav-buttons pencil-button"></button>
+                        <button aria-label="delete job button" class="sub-header-buttons sub-header-nav-buttons trash-button"></button>
+                    </article>
+                </article>
+            </section>
+            <section class="sub-header-two">
+                <article class="sub-header-two-flex">
+                    <button aria-label="go to summary" class="sub-header-two-buttons">SUMMARY</button>
+                    <button aria-label="go to applicants" class="sub-header-two-buttons">APPLICANTS</button>
+                    <button aria-label="go to job board" class="sub-header-two-buttons">JOB BOARD</button>
+                    <button aria-label="go to interviews" class="sub-header-two-buttons">INTERVIEWS</button>
+                    <button aria-label="go to activity" class="sub-header-two-buttons">ACTIVITY</button>
+                    <button aria-label="go to broadcast" class="sub-header-two-buttons">BROADCAST</button>
+                    <button aria-label="go to notifications" class="sub-header-two-buttons">NOTIFICATIONS</button>
+                </article>
+            </section>
+        </header>
+        <section aria-hidden="true" class="graphs-container">
+            <section class="donut-graph">
+                <article class="donut-graphs-flex">
+                    <svg width="100%" height="100%" viewBox="0 0 42 42" class="donut">
+                        <circle class="donut-hole" cx="21" cy="21" r="15.91549430918954" fill="transparent">
+                        </circle>
+                        <circle class="donut-ring" cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="#DBE4EA" stroke-width="3">
+                        </circle>
+                        <circle class="donut-segment" cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="#67B8BF" stroke-width="3" stroke-dasharray="80 20" stroke-dashoffset="75">
+                        </circle>
+                        <div class="donut-one-text">
+                            <p>3,158</p>
+                            <p>APPLICANTS</p>
+                        </div>
+                    </svg>
+                    <svg width="100%" height="100%" viewBox="0 0 42 42" class="donut">
+                        <circle class="donut-hole" cx="21" cy="21" r="15.91549430918954" fill="transparent">
+                        </circle>
+                        <circle class="donut-ring" cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="#DBE4EA" stroke-width="3">
+                        </circle>
+                        <circle class="donut-segment" cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="#48A3F3" stroke-width="3" stroke-dasharray="40 60" stroke-dashoffset="80">
+                        </circle>
+                        <div class="donut-two-text">
+                            <p>1,546</p>
+                            <p>INTERVIEWS</p>
+                        </div>
+                    </svg>
+                    <svg width="100%" height="100%" viewBox="0 0 42 42" class="donut">
+                        <circle class="donut-hole" cx="21" cy="21" r="15.91549430918954" fill="transparent">
+                        </circle>
+                        <circle class="donut-ring" cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="#DBE4EA" stroke-width="3">
+                        </circle>
+                        <circle class="donut-segment" cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="#ce4b99" stroke-width="3" stroke-dasharray="20 80" stroke-dashoffset="-30">
+                        </circle>
+                        <div class="donut-three-text">
+                            <p>912</p>
+                            <p>FORWARDS</p>
+                        </div>
+                    </svg>
+                </article>
+                <button class="graph-buttons totals-button">Totals &nbsp; &nbsp; Out of 5,321 views</button>
+            </section>
+            <section class="bar-graph-container">
+                <article class="bar-graph"></article>
+                <button class="graph-buttons app-day-button">APPLICANTS/DAY</button>
+            </section>
+        </section>
+        <section aria-hidden="true" class="hr-container">
+            <button class="hr-button"></button>
+            <hr class="hr-width">
+        </section>
+        <section class="page-bottom">
+            <section aria-label="job description section" class="table">
+                <header class="table-header table-flex">
+                    <p class="column-one">JOB DESCRIPTION</p>
+                    <p class="column-two">EDIT</p>
+                </header>
+                <section class="table-main">
+                    <article class="table-flex row-height row-margin">
+                        <p class="column-one">POSITION TITLE</p>
+                        <p class="column-two">Customer Service Representative</p>
+                    </article>
+                    <article class="table-flex row-height row-margin">
+                        <p class="column-one">LOCATION</p>
+                        <p class="column-two">San Fransico, CA</p>
+                    </article>
+                    <article class="table-flex row-height row-margin">
+                        <p class="column-one">EMPLOYMENT TYPE</p>
+                        <p class="column-two">Full-time</p>
+                    </article>
+                    <article class="table-flex row-height row-margin">
+                        <p class="column-one">EXPERIENCE</p>
+                        <p class="column-two">Mid-level</p>
+                    </article>
+                    <article class="table-flex row-height row-margin">
+                        <p class="column-one">Status</p>
+                        <p class="column-two">Open</p>
+                    </article>
+                    <article class="table-flex desc-styling row-margin">
+                        <p class="column-one">DESCRIPTION</p>
+                        <p class="column-two">Steve is the epitome of a geek/nerd, with large, thick eyeglasses, flood pants held up by suspenders, multi-colored cardigan sweaters, and a high-pitched voice. He professes an unrequited love for his neighbor Laura Winslow, and considered a nuisance by the Winslow family, though they come to accept him over time.</p>
+                    </article>
+                    <article class="table-flex row-height row-margin">
+                        <p class="column-one">HIRING LEAD</p>
+                        <p class="column-two">Carl Winslow</p>
+                    </article>
+                    <article class="table-flex row-height row-margin table-footer">
+                        <p class="column-one">APPROVED SALARY</p>
+                        <p class="column-two">$1.3 Trillion</p>
+                    </article>
+                </section>
+            </section>
+            <section class="social-container">
+                <article class="social">
+                    <button arial-label="post to facebook" class="facebook social-buttons">post to facebook</button>
+                    <button arial-label="tweet this job" class="twitter social-buttons">tweet this job</button>
+                    <button arial-label="post to linkden" class="linkden social-buttons">post to linkden</button>
+                </article>
+                <article class="link-flex">
+                    <article class="link-to-job link-containers links-widths">
+                        <a class="job-link-image social-links" href="">Link to this job</a>
+                        <p class="link-description">Lorem ipsum dolor sit amet, consectetur adipis cing elit. Integer mollis neque eget vestibpend.</p>
+                        <input class="inline link-inputs" type="text" placeholder="www.youtube.com">
+                        <button class="inline link-buttons">COPY</button>
+                    </article>
+                    <article class="link-widget link-containers links-widths">
+                        <a class="widget-link-image social-links" href="">Use the button widget</a>
+                        <p class="link-description">This widget embeds the buttons for sharing the job for submitting a resume on your website.</p>
+                        <input class="inline link-inputs" type="text" placeholder="<script type= text/javascript...">
+                        <button class="inline link-buttons">COPY</button>
+                    </article>
+                    <article class="upload-resume link-container-three links-widths">
+                        <a class="upload-link-image social-links" href="">Upload resumes by email</a>
+                        <p class="link-description">You can automatically upload muliple resumes to this job by emailing the address below.</p>
+                        <input class="link-input-three" type="text" placeholder="steveurkel@gmail.com">
+                    </article>
+                </article>
+            </section>
+        </section>
+    </main>
 </body>
 </html>
