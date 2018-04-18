@@ -384,6 +384,7 @@ nav
   border: none;
   border-bottom: .5rem solid transparent;
   height: 3rem;
+  font-size: .7rem;
   margin: 0;
   outline: none;
   width: 5.5rem;
@@ -404,13 +405,18 @@ nav
   display: flex;
   margin-bottom: 5rem;
 }
+.donut-text-bold
+{
+  font-weight: bold;
+  font-size: 2rem;
+}
 .donut-one-text
 {
-  left: 9.5%;
+  left: 8.5%;
   position: absolute;
   text-align: center;
   top: 25%;
-  width: 6rem;
+  width: 7rem;
 }
 .donut-two-text
 {
@@ -418,7 +424,7 @@ nav
   position: absolute;
   text-align: center;
   top: 25%;
-  width: 6rem;
+  width: 7rem;
 }
 .donut-three-text
 {
