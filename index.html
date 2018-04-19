@@ -16,7 +16,7 @@
             <button arial-label="got to profile" class="name-btn">Steve Urkel</button>
         </section>
         <section class="profile-main aside-boxes-padding">
-            <h3 class="aside-h3s">Main</h3>
+            <h3 class="aside-h3s main-h3">Main</h3>
             <button arial-label="home button" class="home-btn aside-btns">Home</button>
             <button arial-label="got to jobs" class="jobs-btn aside-btns">JOBS</button>
             <button arial-label="got to resumes" class="resumes-btn aside-btns">RESUMES</button>
@@ -51,7 +51,7 @@
                 <button aria-label="add task button" class="squares-menu-btn header-nav-btns add-buttons"></button>
             </nav>
             <section class="sub-header-one">
-                <article>
+                <article id="job-title">
                     <h1 class="bio-title">Customer Service Representative</h1>
                     <p class="bio-location bio-location-image">San Franciso, CA</p>
                     <a class="bio-location bio-location-text" href="">preview this post</a>
@@ -87,10 +87,14 @@
                         </circle>
                         <circle class="donut-segment" cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="#67B8BF" stroke-width="3" stroke-dasharray="80 20" stroke-dashoffset="75">
                         </circle>
-                        <div class="donut-one-text">
-                            <p class="donut-text-bold">3,158</p>
-                            <p>APPLICANTS</p>
-                        </div>
+                        <g class="donut-one-text">
+                            <text x="30%" y="49%" class="donut-number">
+                            3,158
+                            </text>
+                            <text x="22%" y="60%" class="donut-text">
+                            APPLICANTS
+                            </text>
+                        </g>
                     </svg>
                     <svg width="100%" height="100%" viewBox="0 0 42 42" class="donut">
                         <circle class="donut-hole" cx="21" cy="21" r="15.91549430918954" fill="transparent">
@@ -99,10 +103,14 @@
                         </circle>
                         <circle class="donut-segment" cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="#48A3F3" stroke-width="3" stroke-dasharray="40 60" stroke-dashoffset="80">
                         </circle>
-                        <div class="donut-two-text">
-                            <p class="donut-text-bold">1,546</p>
-                            <p>INTERVIEWS</p>
-                        </div>
+                        <g class="donut-one-text">
+                            <text x="30%" y="49%" class="donut-number">
+                            1,546
+                            </text>
+                            <text x="22%" y="60%" class="donut-text">
+                            INTERVIEWS
+                            </text>
+                        </g>
                     </svg>
                     <svg width="100%" height="100%" viewBox="0 0 42 42" class="donut">
                         <circle class="donut-hole" cx="21" cy="21" r="15.91549430918954" fill="transparent">
@@ -111,13 +119,17 @@
                         </circle>
                         <circle class="donut-segment" cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="#ce4b99" stroke-width="3" stroke-dasharray="20 80" stroke-dashoffset="-30">
                         </circle>
-                        <div class="donut-three-text">
-                            <p class="donut-text-bold">912</p>
-                            <p>FORWARDS</p>
-                        </div>
+                        <g class="donut-one-text">
+                            <text x="37%" y="49%" class="donut-number">
+                            912
+                            </text>
+                            <text x="25%" y="60%" class="donut-text">
+                            FORWARDS
+                            </text>
+                        </g>
                     </svg>
                 </article>
-                <button class="graph-buttons totals-button">Totals &nbsp; &nbsp; Out of 5,321 views</button>
+                <button class="graph-buttons totals-button">Totals &nbsp; &nbsp; Out of <b>5,321</b> views</button>
             </section>
             <section class="bar-graph-container">
                 <article class="bar-graph"></article>
@@ -130,9 +142,9 @@
         </section>
         <section class="page-bottom">
             <section aria-label="job description section" class="table">
-                <header class="table-header table-flex">
-                    <p class="column-one">JOB DESCRIPTION</p>
-                    <p class="column-two">EDIT</p>
+                <header class="table-header table-flex" id="table-header-flex-column">
+                    <p class="column-one" id="job-descript">JOB DESCRIPTION</p>
+                    <p class="column-two" id="job-edit">EDIT</p>
                 </header>
                 <section class="table-main">
                     <article class="table-flex row-height row-margin">
@@ -157,7 +169,7 @@
                     </article>
                     <article class="table-flex desc-styling row-margin">
                         <p class="column-one">DESCRIPTION</p>
-                        <p class="column-two">Steve is the epitome of a geek/nerd, with large, thick eyeglasses, flood pants held up by suspenders, multi-colored cardigan sweaters, and a high-pitched voice. He professes an unrequited love for his neighbor Laura Winslow, and considered a nuisance by the Winslow family, though they come to accept him over time.</p>
+                        <p class="column-two" id="description-text">Steve is the epitome of a geek/nerd, with large, thick eyeglasses, flood pants held up by suspenders, multi-colored cardigan sweaters, and a high-pitched voice. He professes an unrequited love for his neighbor Laura Winslow, and considered a nuisance by the Winslow family, though they come to accept him over time.</p>
                     </article>
                     <article class="table-flex row-height row-margin">
                         <p class="column-one">HIRING LEAD</p>
@@ -165,7 +177,7 @@
                     </article>
                     <article class="table-flex row-height row-margin table-footer">
                         <p class="column-one">APPROVED SALARY</p>
-                        <p class="column-two">$1.3 Trillion</p>
+                        <p class="column-two salary-number">$1.3 Trillion</p>
                     </article>
                 </section>
             </section>
