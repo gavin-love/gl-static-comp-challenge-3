@@ -942,9 +942,6 @@ nav {
 }
 
 @media only screen and (max-width: 500px) {
-  .search {
-  }
-
   .hamburger-btn {
     position: absolute;
     top: 11.5rem;
